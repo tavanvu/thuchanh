@@ -1,0 +1,20 @@
+com/codegym/config/AppInit.java
+ com.codegym.config.AppInit
+com/codegym/repository/StudentRepository.java
+ com.codegym.repository.StudentRepository
+com/codegym/config/AppConfig.java
+ com.codegym.config.AppConfig
+com/codegym/General.java
+ com.codegym.General
+com/codegym/service/IStudentService.java
+ com.codegym.service.IStudentService
+com/codegym/model/StudentForm.java
+ com.codegym.model.StudentForm
+com/codegym/repository/IStudentRepository.java
+ com.codegym.repository.IStudentRepository
+com/codegym/model/Student.java
+ com.codegym.model.Student
+com/codegym/service/StudentService.java
+ com.codegym.service.StudentService
+com/codegym/controller/StudentController.java
+ com.codegym.controller.StudentController

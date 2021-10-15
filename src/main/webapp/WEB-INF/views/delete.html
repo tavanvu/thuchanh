@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/student/delete}" th:object="${student}" method="POST" novalidate="novalidate">
+
+    <input type="hidden" th:field="*{id}" readonly/>
+    <div>
+        <label>Name</label>
+        <input type="text" th:field="*{name}" readonly/>
+    </div>
+    <div>
+        <label>Address</label>
+        <input type="email" th:field="*{address}" readonly/>
+    </div>
+    <div>
+        <label>Email</label>
+        <input type="text" th:field="*{email}" readonly/>
+    </div>
+    <div>
+        <label>Image</label>
+        <input type="file" th:field="*{image}" readonly/>
+    </div>
+    <button type="submit">delete</button>
+</form>
+</body>
+</html>
